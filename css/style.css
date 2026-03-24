@@ -373,8 +373,9 @@ p:last-child { margin-bottom: 0; }
 .hero__actions .btn { text-align: center; width: 100%; }
 @media (max-width: 800px) {
   .hero { min-height: 100vh; padding: calc(var(--nav-height) + 80px) 0 120px; }
-  .hero__inner { grid-template-columns: 1fr; gap: 32px; }
-  .hero__actions { flex-direction: row; flex-wrap: wrap; }
+  .hero__inner { grid-template-columns: 1fr; gap: 32px; text-align: center; align-items: center; }
+  .hero__text { max-width: 100%; }
+  .hero__actions { flex-direction: row; flex-wrap: wrap; justify-content: center; }
   .hero__actions .btn { width: auto; }
 }
 .hero__image {
@@ -466,7 +467,7 @@ p:last-child { margin-bottom: 0; }
   gap: 1rem;
 }
 @media (max-width: 700px) {
-  .cat-grid { grid-template-columns: repeat(2, 1fr); }
+  .cat-grid { grid-template-columns: 1fr; }
 }
 .cat-card {
   position: relative;
