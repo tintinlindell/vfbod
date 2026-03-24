@@ -124,7 +124,7 @@ p:last-child { margin-bottom: 0; }
   background: var(--theme-accent);
   margin: 16px auto 20px;
 }
-.sep--left { margin-left: 0; }
+.sep--left { margin-left: 0; margin-right: auto; }
 
 /* ============================================================
    BUTTONS
@@ -356,6 +356,7 @@ p:last-child { margin-bottom: 0; }
   width: 100%;
 }
 .hero__text { max-width: 500px; }
+.hero__text .sep--left { margin-left: 0; margin-right: auto; }
 .hero h1 { margin-bottom: 8px; color: var(--color-ink); }
 .hero .eyebrow { color: var(--theme-accent); }
 .hero p {
@@ -375,7 +376,7 @@ p:last-child { margin-bottom: 0; }
   .hero { min-height: 100vh; padding: calc(var(--nav-height) + 80px) 0 120px; }
   .hero__inner { grid-template-columns: 1fr; gap: 32px; text-align: center; align-items: center; }
   .hero__text { max-width: 100%; }
-  .hero__text .sep--left { margin-left: auto; }
+  .hero__text .sep--left { margin-left: auto; margin-right: auto; }
   .hero__actions { flex-direction: row; flex-wrap: wrap; justify-content: center; }
   .hero__actions .btn { width: auto; }
 }
